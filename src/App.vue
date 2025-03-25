@@ -3588,7 +3588,6 @@ export default defineComponent({
       switch (command) {
         case "New":
           diagram.clear();
-          this.diagramEvents.historyChange();
           break;
         case "Save":
           this.download(diagram.saveDiagram());
